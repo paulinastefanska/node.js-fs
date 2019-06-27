@@ -1,4 +1,5 @@
 /* simple exercise with fs
+
 var fs = require('fs');
 var StatMode = require('stat-mode');
 
@@ -9,7 +10,8 @@ fs.stat('./dog.jpeg', function(err, stats) {
 });
 */
 
-// read/write file
+/* read/write file exercise
+
 var fs = require('fs');
 var colors = require('colors');
 
@@ -25,3 +27,4 @@ fs.readFile('./text.txt', 'utf-8', function(err, data) {
         });
     });
 });
+*/
